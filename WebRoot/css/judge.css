@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#middle{
+	
+	width: 1200px;
+	margin: 0 auto;
+}
+#goods_pic img{
+	height: 480px;
+	width: 480px;
+	float: left;
+}
+
+.middle_ul{
+	
+	list-style: none;
+	
+}
+.middle_ul li{
+	margin-top: 20px;
+	
+}
+#content_middle{
+	overflow: hidden;
+	background:#f5f5f5 ;
+}
+.price{
+	font-size: 24px;
+    color: #DA3232;
+    margin-right: 6px;
+    font-weight: 600;
+}
+
+
+
+.next_head{
+	height: 50px;
+	width: 100%px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	
+}
+.head_middle{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.head_right{
+	float: right; 
+}
+#sumbitjudge{
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0px 10px ;
+	text-align: center;
+    background-color: #ca151e;
+    border: 1px solid #ca151e;
+    color: #FFF!important;
+     
+}
+#sumbitjudge:hover{
+	    background-color: #ab0009;
+    border: 1px solid #ab0009;
+}
+#middle_judge{
+	width: 1200px;
+	height: 450px;
+	background: white;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	
+	}
+.middle_left{
+    float: left;
+    width: 300px;
+    height: 365px;
+}
+#middle_right{
+    float: left;
+    width: 899px;
+    min-height: 365px;
+    border-left: 1px solid #f5f5f5;
+}
+#p_pic  img{
+	width: 135px;
+    height: 135px;
+    margin: 40px 82px 30px;
+}
+#goodsname_judge{
+	margin: 0 80px;
+    font-size: 14px;
+}
+#goods_price_judge{
+	font-size: 16px;
+    color: #ca151e;
+    margin: 20px 100px 0;
+	
+}
+.des_word{
+	text-align: left;
+    padding-left: 36px;
+    width: 105px;
+    color: #AAA;
+    font-size: 14px;
+}
+#content_judge{
+	height: 88px;
+    width: 688px;
+    border: 1px solid #DDD;
+    transition: border-color .3s ease;
+    border: 1px solid #dedede;
+    padding: 8px 12px;
+    line-height: 21px;
+   
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: gainsboro;
+    font-size: 14px;
+        font-family: arial,"微软雅黑";
+}
+ 
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color:  gainsboro;
+    font-size: 14px;
+        font-family: arial,"微软雅黑";
+}

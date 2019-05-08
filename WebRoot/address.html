@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="stylesheet" href="css/mui.min.css">
+		<script src="js/mui.min.js"></script>
+		<style>
+			html,body {
+				background-color: #efeff4;
+			}
+		</style>
+		
+	</head>
+	<body> 
+		<div class="mui-content">
+			<header class="mui-bar mui-bar-nav">
+				<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+				<h1 class="mui-title">地址管理</h1>
+			</header>
+			<div class="mui-content">
+				<img src="imgs/001.png" style="width: 101%;" />
+				<a href="#modal" class="mui-btn mui-btn-primary mui-btn-block" style="background-color: rgb(240,70,80);border: 0px;margin-top: 10px;">新增收获地址</a>
+			</div>
+			<div id="modal" class="mui-modal">
+				<header class="mui-bar mui-bar-nav">
+					<a class="mui-icon mui-icon-close mui-pull-right" href="#modal"></a>
+					<h1 class="mui-title">新增收货人地址</h1>
+				</header>
+				
+				
+				<form action="" method="post">
+				<div  style="margin-top: 50px;">
+					<div class="mui-input-row">
+						<label>收货人:</label>
+							<input type="text" placeholder="收货人">
+						</div>
+						<div class="mui-input-row">
+							<label>收获地址:</label>
+							<input type="text" class="mui-input-clear" placeholder="请输入收获地址">
+						</div>
+						<div class="mui-input-row">
+							<label>详细地址:</label>
+							<input type="text" class="mui-input-clear" placeholder="请输入详细地址">
+						</div>
+						<div class="mui-input-row">
+							<label>联系方式:</label>
+							<input type="text" class="mui-input-clear" placeholder="您的联系方式">
+						</div>
+				</div>
+					</form>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

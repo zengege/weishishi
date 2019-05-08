@@ -1,0 +1,29 @@
+.myself-ul li {
+	font-size: 13px;
+}
+#exit span{
+	display: inline-block;
+	margin-top: 18px;
+}
+#exit{
+	margin-top: 20px;
+	text-align: center;
+	background-color: rgb(255,255,255);
+	height: 50px;
+	
+}
+.myself-ul li span{
+	display: inline-block;
+	margin-right: 10px;
+}
+.tip{
+	display: inline-block;
+	float: right;
+	font-size: 19px;
+	color: gainsboro;
+}
+.kefu span{
+	margin-left: 10px;
+	font-size: 12px;
+
+}

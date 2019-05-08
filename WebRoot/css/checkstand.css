@@ -1,0 +1,276 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_div {
+	width: 1348px;
+	margin: 0 auto;
+}
+
+.logo_name {
+	width: 1200px;
+	height: 65px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.logo_name span {
+	line-height: 20px;
+	margin-left: 13px;
+	padding: 0 13px;
+	border-left: 1px solid #e8e8e8;
+	color: #343434;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+.cashier_orderInfo{
+	transition: all 1s;
+    -moz-transition: all 1s;
+   -webkit-transition: all 1s;
+   -o-transition: all 1s;
+	width: 1200px;
+    padding-bottom: 20px;
+	margin: 0 auto;
+	background: #EFFAED;
+	border-top: 3px solid green;
+}
+/*.cashier_orderInfo_1{
+	
+	width: 1200px;
+	height: 107px;
+	margin: 0 auto;
+	background: #EFFAED;
+	border-top: 3px solid green;
+	display: block;
+	overflow: hidden;
+	transition: all 1s;
+    -moz-transition: all 1s;
+   -webkit-transition: all 1s;
+   -o-transition: all 1s;
+
+}*/
+
+#success_pic {
+	width: 120px;
+	float: left;
+}
+
+#oderwords {
+	width: 1058px;
+	height: 26px;
+	float: left;
+	margin-top: 28px;
+}
+
+#words {
+	float: left;
+	line-height: 26px;
+	color: #53A724;
+	font: 12px/1.5 Microsoft YaHei, tahoma, arial;
+	font-size: 18px;
+}
+
+#oder_price {
+	font-size: 24px;
+	color: #DA3232;
+	margin-right: 6px;
+	font-weight: 600;
+}
+
+#right_price {
+	float: right;
+}
+
+#detail_2{
+
+	width: 1058px;
+	height: 100px;
+	color: #333333;
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+	margin-top: 18px;
+	margin-left: 122px;
+	
+	
+	
+
+}
+/*.detail_oder_1 {
+
+	width: 1058px;
+	height: 100px;
+	color: #333333;
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+	margin-top: 18px;
+	margin-left: 122px;
+	display:none;
+	
+	
+}*/
+#detail_ul {
+	list-style: none;
+}
+
+
+#daojishi {
+	margin-top: 15px;
+	width: 1058px;
+	height: 20px;
+}
+
+#oder_detail_2 {
+	float: right;
+	font: 13px/1.5 Microsoft YaHei, tahoma, arial;
+}
+#pay_div{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#payTab{
+    background-color: rgb(242,242,242);
+	
+	width: 684px;
+	height: 44px;
+	border-right: 1px gray solid;
+}
+#payTab li{
+	width: 170px;
+	height: 42px;
+	list-style: none;
+	float: left;
+
+    display: block;
+    cursor: pointer;
+}
+.active{
+	background-color:white ;
+}
+#payTab li:hover{
+	background-color: rgb(221,221,221);
+}
+#payTab li{
+	border: 1px gray solid;
+	border-right: 0px;
+	border-bottom: 0px;
+}
+#payTab li span{
+	display: block;
+	
+	margin: 10px 50px;
+}
+#pay_a,#pay_b,#pay_c,#pay_d{
+	padding: 60px;
+}
+
+.pic_pay{
+	/*display: block;*/
+	width: 110px;
+	height: 30px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 60px;
+	margin-right: 2px;
+}
+  .select_pay{
+	width: 1200px;
+	height: 260px;
+	border: 1px solid gray;
+	display: none;
+}
+.active_li{
+	border: 1px #DA3232 solid;
+}
+#pay_a li{
+	list-style: none;
+	float: left;
+	width: 258px;
+	height: 51px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	
+}
+#pay_b li{
+	list-style: none;
+	float: left;
+	width: 258px;
+	height: 51px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	
+}
+#pay_c li{
+	list-style: none;
+	float: left;
+	width: 258px;
+	height: 51px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	
+}
+#pay_d li{
+	list-style: none;
+	float: left;
+	width: 258px;
+	height: 51px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	
+}
+/*#pay_b li img{
+	display: block;
+	width: 110px;
+	height: 30px;
+	margin: 12px 70px;
+}
+#pay_c li img{
+	display: block;
+	width: 110px;
+	height: 30px;
+	margin: 12px 70px;
+}
+#pay_d li img{
+	display: block;
+	width: 110px;
+	height: 30px;
+	margin: 12px 70px;
+}*/
+.dengdai_li{
+	border: 1px gray solid;
+}
+.selected{
+float: right;
+margin-top: 1px;
+display: none;
+}
+
+#ensure_pay {
+	float: right;
+	display: block;
+	background: #ca151d;
+	width: 172px;
+	height: 46px;
+	font-size: 18px;
+	line-height: 46px;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+	border: 0;
+	cursor: pointer;
+	text-decoration: none;
+	margin-left: 12px;
+	border-radius: 4%;
+	
+}
+#ensure_pay:hover {
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}

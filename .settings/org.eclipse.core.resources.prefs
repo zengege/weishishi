@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//WebRoot/checkstand.jsp=UTF-8
+encoding//WebRoot/ensureorder.jsp=UTF-8
+encoding//WebRoot/goodsdetail.jsp=UTF-8
+encoding//WebRoot/homepage.jsp=UTF-8
+encoding//WebRoot/shoppingcar.jsp=UTF-8
+encoding//src/com/servlet/CarServlet.java=UTF-8
+encoding//src/com/servlet/OrderServlet.java=UTF-8
+encoding//src/email/Test.java=UTF-8
+encoding//src/message/GetMessageCode.java=UTF-8
